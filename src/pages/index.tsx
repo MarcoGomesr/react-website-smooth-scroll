@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Footer from "../components/Footer";
 
 import Hero from "../components/Hero";
 import Info from "../components/Info";
@@ -27,6 +28,7 @@ const Home: React.FC = () => {
       <Info {...HomeObjSecond} />
       <Services />
       <Info {...HomeObjThree} />
+      <Footer />
     </>
   );
 };

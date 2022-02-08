@@ -43,7 +43,7 @@ const Navbar: React.FC<NavbarProps> = ({ toggle }) => {
           </NavMenu>
 
           <NavBtn>
-            <NavBtnLink to="signup">Sign in</NavBtnLink>
+            <NavBtnLink to="signin">Sign in</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>
