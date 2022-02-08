@@ -1,3 +1,8 @@
+# React-website-smooth-scroll-typescript
+![React-website-smooth-scroll-typescript](https://camo.githubusercontent.com/6db95aa1dc2b5e5a8e07409f7fd416d6e4f63a2a1fa1f848b4081721daf75113/68747470733a2f2f692e696d6775722e636f6d2f627a6a4757346b2e6769663f773d)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
