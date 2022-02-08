@@ -23,7 +23,7 @@ const Hero = () => {
   };
 
   return (
-    <HeroContainer>
+    <HeroContainer id="home">
       <HeroBg>
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
@@ -35,7 +35,15 @@ const Hero = () => {
           your next payment.
         </HeroP>
         <HeroBtnWrapper>
-          <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover}>
+          <Button
+            to="signup"
+            onMouseEnter={onHover}
+            onMouseLeave={onHover}
+            smooth={true}
+            duration={500}
+            spy={true}
+            offset={-80}
+          >
             Get stated {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>
