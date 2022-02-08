@@ -3,8 +3,12 @@ import { Link as LinkR } from "react-router-dom";
 import { Link as LinkS } from "react-scroll";
 import { mq, tablet } from "../../styles/breakpoints";
 
-export const Nav = styled.nav`
-  background: #000;
+interface NavProps {
+  scrollNav?: boolean | string;
+}
+
+export const Nav = styled.nav<NavProps>`
+  background: ${({ scrollNav }) => (scrollNav ? "#000" : "transparent")};
   height: 80px;
   margin-top: -80px;
   display: flex;
